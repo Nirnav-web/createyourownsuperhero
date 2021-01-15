@@ -1,0 +1,46 @@
+<div class="_module_content _module_content_hero marvel_grid">
+	<script src="https://lumiere-a.akamaihd.net/v1/game_container/js/disneygames.js"></script>
+
+<div id="game_wrapper">
+  <div class="scaler" style="padding-top:73.2421875%"></div>
+
+  <script src="https://static-mh.content.disney.io/marvelhq/assets/specific_modules/modules/marvel_hero_game-e0943c5f8975.js"></script>
+
+  
+  <div id="DisneyGame-540526235e586f4682875a8f" class="_player" contentid="540526235e586f4682875a8f" aria-label="Game iframe." style="margin: 0px auto; position: relative; width: 1024px; height: 750px;"><img class="disneyGamesPlayBtnImg" src="https://lumiere-a.akamaihd.net/v1/images/cyoww_thumbnail_600x450_df036b6c.png" style="width: 1024px; height: 750px; display: none;"><img class="disneyGamesPlayBtnOverlay" src="//img.lum.dolimg.com/v1/game_container/img/playButton.png" aria-label="Play button to load game." tabindex="0" style="width: 1024px; height: 750px; display: none;"><iframe id="DisneyGamesIFrame" src="https://i.annihil.us/u/stage/games/marvelhq/sm_cyo/index.html?refOverride=https%3A%2F%2Fwww.marvelhq.com%2F&amp;coreGameId=540526235e586f4682875a8f" width="1024" height="750" frameborder="0" scrolling="no" allowfullscreen="true" allowtransparency="true" style="background-color: transparent" aria-hidden="true" aria-label="iframed online web game."></iframe></div>
+  <script>
+    (function () {
+      var observer;
+      var observedCount;
+      var body = document.body;
+      var config = { attributes: false, childList: true, subtree: true };
+      var cb = function (mutationsList, observer) {
+        var nodes;
+        for (var mutation of mutationsList) {
+          nodes = mutation.addedNodes[0];
+          if (nodes && nodes.classList && nodes.classList.contains('disneyGamesPlayBtnOverlay')) {
+            nodes.setAttribute('aria-label', 'Play button to load game.');
+            nodes.setAttribute('tabindex', '0');
+            observedCount++;
+          }
+          if (nodes && nodes.id === 'DisneyGamesIFrame') {
+            iframeParent = nodes.parentElement;
+            nodes.setAttribute('aria-hidden', 'true');
+            nodes.setAttribute('aria-label', 'iframed online web game.');
+            observedCount++;
+          }
+          if (observedCount == 2) {
+            observer.disconnect();
+          }
+        }
+      };
+
+      observer = new MutationObserver(cb);
+      observer.observe(body, config);
+    })();
+  </script>
+  <script>var Hero_Game = MARVEL_HERO_GAME({"primaryImageName":"game","id":"540526235e586f4682875a8f","slug":"games/create-your-own-web-warrior","entity_type":"game","entity_config":{"rounded_corners":"default","parent_title":false,"thumb_outline":true,"aspect_ratio":"4x3","button_cta":"play_game","text_alignment":"left","details_visibility":"default"},"title":"Create Your Own Web Warrior","game_type":"Online: Single-Player","game_data":{"description":"Love Spider-Man? Create your own Web-slinging Super Hero with Marvel's Create Your Own Web Warrior!","fileUrl":"","flashIframeUrl":"","height":750,"html5Url":"https://i.annihil.us/u/stage/games/marvelhq/sm_cyo/index.html","id":"540526235e586f4682875a8f","images":{"img750x500":"https://lumiere-a.akamaihd.net/v1/images/cyoww_thumbnail_600x450_df036b6c.png"},"minimumFlashPlayerVersion":"","reportingAssetName":"gam|marv|spm|dol|spl|acv|540526235e586f4682875a8f|","title":"Create Your Own Web Warrior","type":"HTML5","width":1024,"apiVersion":"","genre":"act","lastPublishedDate":"2019-03-05","core_id":"540526235e586f4682875a8f","iframeScrolling":false},"desc":"Love Spider-Man? Create your own Web-slinging Super Hero with Marvel's Create Your Own Web Warrior!","compatibility_flags":["html5"],"entityType":"game","tech_type":"HTML5","sidekick_desktop":"https://lumiere-a.akamaihd.net/v1/images/cyoww_newpose_thumbnail_960540_1609f47b.jpeg?region=0%2C0%2C960%2C540","thumb":"https://lumiere-a.akamaihd.net/v1/images/cyoww_newpose_thumbnail_600450_f9a55f7b.jpeg?region=0%2C0%2C600%2C450","consoleThumb":"https://lumiere-a.akamaihd.net/v1/images/cyoww_newpose_thumbnail_600450_f9a55f7b.jpeg?region=0%2C0%2C600%2C450","description":"Love Spider-Man? Create your own Web-slinging Super Hero with Marvel's Create Your Own Web Warrior!","type":"Game","href":"https://spiderman.marvelhq.com/games/create-your-own-web-warrior"}, {"idNum":"97564294","sizes":"[[728,90], [970,66]]","mobilesizes":"[[728,90], [970,66]]","config":{"targeting":{"unit":"dol","siteSection":"games:create-your-own-web-warrior","contentType":"game","pgn":"games/create-your-own-web-warrior","pageName":"games/create-your-own-web-warrior","contentId":"540526235e586f4682875a8f","property":"spm","propertyId":"4ba34be3528a059e961b9666","actor":"","character":"","characterId":null,"tag":null,"keywords":null,"product":null,"movieGenre":null,"movieRating":null,"movieTitle":null,"gameGenre":"Activity","gameTitle":"Create Your Own Web Warrior","gameType":"Online: Single-Player","videoType":null},"web":"/21783347309/marvelhq.com/spiderman/games/create-your-own-web-warrior","mobile":"/21783347309/marvelhq.com/spiderman/games/create-your-own-web-warrior"},"cds":0,"disableAds":false,"pda":true,"adSystem":"dfp","adTargetingConf":{"navAd":{"size":"[[728,90], [970,66]]","mobilesize":"[[728,90], [970,66]]"},"skinAd":{"size":"[[1000,1000]]","mobilesize":"[[1000,1000]]"},"squareAd":{"size":"[[300,250]]","mobilesize":"[[300,50], [300,250]]"},"gameLoader":{"size":"[[750, 500]]","mobilesize":"[[750, 500]]"}}});</script>
+</div>
+
+
+</div>
